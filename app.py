@@ -16,15 +16,15 @@ st.title('__Create Your Time Table__',)
 
 # loading the csv data and converting it to be compatible in the prompt
 
-T1 = pd.read_csv('TimeTable Project - Period Allotment.csv')
+T1 = pd.read_csv('Period Allotment.csv')
 
 T1_ = T1.to_json(orient='records')
 
-T2 = pd.read_csv('TimeTable Project - Teacher Subject Mapping 2.csv')
+T2 = pd.read_csv('Class-Teacher Mapping.csv')
 
 T2_ = T2.to_json(orient='records')
 
-T3 = pd.read_csv('TimeTable Project - Teacher-Subject Mapping.csv')
+T3 = pd.read_csv('Subject-Class Mapping.csv')
 
 T3_ = T3.to_json(orient='records')
 
