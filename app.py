@@ -88,7 +88,7 @@ if user_input:
     result = chain.invoke({'list1':T1_,'list2':T2_,'list3':T3_,'user_input':user_input+timetable_format})
 
     st.write(result)
-    st.error('The result is AI generated make sure to make changes according to you need')
+    st.error('The result is AI generated make sure to make changes according to your need')
 
 else:
     st.warning('provide the details')
