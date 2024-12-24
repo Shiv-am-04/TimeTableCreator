@@ -77,7 +77,7 @@ llm = ChatGroq(model='llama3-70b-8192',api_key=groq_api)
 chain = prompt|llm|StrOutputParser()
 
 
-user_input = st.text_input(label='***Give Details***',placeholder='Provide detail regarding time interval,lunch break,assembly etc.')
+user_input = st.text_area(label='***Give Details***',placeholder='Provide detail regarding time interval,lunch break,assembly etc.')
 
 
 timetable_format = '''
