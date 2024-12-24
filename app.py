@@ -12,7 +12,7 @@ groq_api = os.getenv('GROQ_API_KEY')
 
 st.set_page_config('Time Table Creator')
 
-st.title('__Create Your Time Table__',)
+st.title('__Create Your Time Table__')
 
 # loading the csv data and converting it to be compatible in the prompt
 
